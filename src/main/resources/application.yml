@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+    datasource:
+        name: smartpark
+        url: jdbc:mysql://39.105.30.238:3306/smartpark
+        username: root
+        password: Mysql.qwer1234
+        
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
